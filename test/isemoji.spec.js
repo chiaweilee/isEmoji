@@ -1,4 +1,4 @@
-require('../src/index')
+require('../lib/index')
 const { expect } = require('chai')
 
 describe('is emoji?', () => {
@@ -69,7 +69,7 @@ describe('is emoji?', () => {
 
 describe('remove emoji?', () => {
   it('string which removed emoji is not emoji', () => {
-    expect('test✅is↖emoji'.removeemoji()).to.equal('testisemoji')
-    expect(('test✅is↖emoji'.removeemoji()).isemoji()).to.equal(false)
+    expect('test✅is↖emoji'.removeEmoji()).to.equal('testisemoji')
+    expect(('test✅is↖emoji'.removeEmoji()).isemoji()).to.equal(false)
   })
 })
