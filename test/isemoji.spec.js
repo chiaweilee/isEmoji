@@ -8,6 +8,9 @@ describe('is emoji?', () => {
   it('normal string is not emoji', () => {
     expect('test'.isemoji()).to.equal(false)
   })
+  it('string which include emoji is emoji', () => {
+    expect('test✅isemoji'.isemoji()).to.equal(true)
+  })
   it('Dingbat ✅ is emoji', () => {
     expect('✅'.isemoji()).to.equal(true)
   })
@@ -61,5 +64,12 @@ describe('is emoji?', () => {
   })
   it('Arrows_(Unicode_block) ↖️️ is emoji', () => {
     expect('↖️'.isemoji()).to.equal(true)
+  })
+})
+
+describe('remove emoji?', () => {
+  it('string which removed emoji is not emoji', () => {
+    expect('test✅is↖emoji'.removeemoji()).to.equal('testisemoji')
+    expect(('test✅is↖emoji'.removeemoji()).isemoji()).to.equal(false)
   })
 })

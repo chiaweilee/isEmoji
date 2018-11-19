@@ -139,4 +139,4 @@ const supplemental = [].concat(
   arrows
 ).join('|')
 
-module.exports = new RegExp(`(?:${supplemental})`)
+module.exports = `(?:${supplemental})`
