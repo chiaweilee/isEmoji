@@ -5,6 +5,7 @@
   "main": "lib/index.js",
   "module": "src/index.js",
   "scripts": {
+    "es5": "npx babel --no-babelrc src --out-dir lib",
     "test": "mocha"
   },
   "repository": {
@@ -21,6 +22,8 @@
   },
   "homepage": "https://github.com/chiaweilee/isEmoji#readme",
   "devDependencies": {
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.5",
     "chai": "^4.2.0",
     "eslint": "^5.9.0",
     "mocha": "^5.2.0"
