@@ -35,5 +35,5 @@ also, `return true` if a string `included` emoji(s)
 ```JavaScript
 require('@chiaweilee/isemoji')
 
-'Hello🀄World️'.removeEmoji() // 'HelloWorld'
+'Hello🀄World'.removeEmoji() // 'HelloWorld'
 ```
