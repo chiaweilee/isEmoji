@@ -2,6 +2,12 @@
 
 *inspire by @christophior/isEmoji*
 
+### Install
+
+```
+npm install @chiaweilee/isemoji
+```
+
 ### Usage
 
 ```JavaScript
