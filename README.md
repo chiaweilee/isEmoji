@@ -1,15 +1,19 @@
-#isEmoji
-### ndoe module to check if a string is an emoji
+## isemoji
 
-```js
-var isEmoji = require('isemoji');
+*inspire by @christophior/isEmoji*
 
-isEmoji('')
-// false
+### Usage
 
-isEmoji('some string')
-// false
+```JavaScript
+require('@chiaweilee/isemoji')
 
-isEmoji('✈️')
-// true
+'🀄️'.isemoij() // true
+```
+
+*or*
+
+```JavaScript
+const isemoji = require('@chiaweilee/isemoji')
+
+isemoij('🀄️') // true
 ```

@@ -1,23 +1,28 @@
 {
-  "name": "is-emoji",
-  "version": "1.0.0",
-  "description": "function to check if a string is an emoji",
-  "main": "index.js",
+  "name": "isemoji",
+  "version": "0.1.0",
+  "description": "String.isemoji()",
+  "main": "lib/index.js",
+  "module": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/christophior/isEmoji.git"
+    "url": "git+https://github.com/chiaweilee/isEmoji.git"
   },
   "keywords": [
-    "emoji",
-    "isemoji"
+    "emoji"
   ],
-  "author": "Chris Villarreal <chrisvillarreal1018@gmail.com>",
+  "author": "+v",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/christophior/isEmoji/issues"
+    "url": "https://github.com/chiaweilee/isEmoji/issues"
   },
-  "homepage": "https://github.com/christophior/isEmoji#readme"
+  "homepage": "https://github.com/chiaweilee/isEmoji#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^5.9.0",
+    "mocha": "^5.2.0"
+  }
 }
