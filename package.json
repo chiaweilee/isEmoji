@@ -1,6 +1,6 @@
 {
   "name": "@chiaweilee/isemoji",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "String.isemoji()",
   "main": "lib/index.js",
   "module": "src/index.js",
