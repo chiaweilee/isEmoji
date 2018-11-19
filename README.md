@@ -2,6 +2,10 @@
 
 *inspire by @christophior/isEmoji*
 
+### Demo
+
+https://chiaweilee.github.io/isEmoji/index.html
+
 ### Install
 
 ```
